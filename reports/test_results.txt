@@ -1,0 +1,39 @@
+test_health (test_http.HttpIntegrationTests.test_health) ... ok
+test_live_search_returns_eligible_source_excerpt (test_http.HttpIntegrationTests.test_live_search_returns_eligible_source_excerpt) ... ok
+test_malformed_json_rejected (test_http.HttpIntegrationTests.test_malformed_json_rejected) ... ok
+test_oversized_body_rejected (test_http.HttpIntegrationTests.test_oversized_body_rejected) ... ok
+test_role_override_rejected (test_http.HttpIntegrationTests.test_role_override_rejected) ... ok
+test_unknown_route_does_not_expose_files (test_http.HttpIntegrationTests.test_unknown_route_does_not_expose_files) ... ok
+test_changed_citation_detected (test_regression.RegressionTests.test_changed_citation_detected) ... ok
+test_changed_ranking_detected_when_summaries_unchanged (test_regression.RegressionTests.test_changed_ranking_detected_when_summaries_unchanged) ... ok
+test_duplicate_case_detected (test_regression.RegressionTests.test_duplicate_case_detected) ... ok
+test_failed_engineering_control_never_passes (test_regression.RegressionTests.test_failed_engineering_control_never_passes) ... ok
+test_identical_quality_ignores_timing_and_timestamp (test_regression.RegressionTests.test_identical_quality_ignores_timing_and_timestamp) ... ok
+test_missing_case_detected (test_regression.RegressionTests.test_missing_case_detected) ... ok
+test_answer_is_exact_source_excerpt (test_workbench.WorkbenchTests.test_answer_is_exact_source_excerpt) ... ok
+test_archived_sources_never_rank (test_workbench.WorkbenchTests.test_archived_sources_never_rank) ... ok
+test_calibration_is_reproducible (test_workbench.WorkbenchTests.test_calibration_is_reproducible) ... ok
+test_duplicate_hits_cannot_inflate_recall (test_workbench.WorkbenchTests.test_duplicate_hits_cannot_inflate_recall) ... ok
+test_duplicate_questions_rejected (test_workbench.WorkbenchTests.test_duplicate_questions_rejected) ... ok
+test_external_invalid_citation_is_flagged (test_workbench.WorkbenchTests.test_external_invalid_citation_is_flagged) ... ok
+test_external_predictions_require_complete_split (test_workbench.WorkbenchTests.test_external_predictions_require_complete_split) ... ok
+test_fixture_is_valid (test_workbench.WorkbenchTests.test_fixture_is_valid) ... ok
+test_gold_span_must_be_in_source (test_workbench.WorkbenchTests.test_gold_span_must_be_in_source) ... ok
+test_internal_sources_never_rank (test_workbench.WorkbenchTests.test_internal_sources_never_rank) ... ok
+test_known_ranking_metrics (test_workbench.WorkbenchTests.test_known_ranking_metrics) ... ok
+test_multiple_relevant_documents (test_workbench.WorkbenchTests.test_multiple_relevant_documents) ... ok
+test_plan_filters_apply_to_every_method (test_workbench.WorkbenchTests.test_plan_filters_apply_to_every_method) ... ok
+test_retrieval_has_no_query_label_input (test_workbench.WorkbenchTests.test_retrieval_has_no_query_label_input) ... ok
+test_rrf_uses_rank_order (test_workbench.WorkbenchTests.test_rrf_uses_rank_order) ... ok
+test_server_rejects_bad_shapes (test_workbench.WorkbenchTests.test_server_rejects_bad_shapes) ... ok
+test_server_rejects_role_injection (test_workbench.WorkbenchTests.test_server_rejects_role_injection) ... ok
+test_split_group_overlap_rejected (test_workbench.WorkbenchTests.test_split_group_overlap_rejected) ... ok
+test_threshold_rejects_without_citation (test_workbench.WorkbenchTests.test_threshold_rejects_without_citation) ... ok
+test_unanswerable_has_no_retrieval_metric (test_workbench.WorkbenchTests.test_unanswerable_has_no_retrieval_metric) ... ok
+test_unknown_gold_id_rejected (test_workbench.WorkbenchTests.test_unknown_gold_id_rejected) ... ok
+test_zero_signal_query_abstains (test_workbench.WorkbenchTests.test_zero_signal_query_abstains) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.619s
+
+OK

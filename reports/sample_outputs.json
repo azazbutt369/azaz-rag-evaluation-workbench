@@ -1,0 +1,225 @@
+{
+  "origin": "Actual outputs from the committed authored synthetic test fixture. Examples selected after inspection; not a separate evaluation set.",
+  "benchmark_sha256": "442ce82590a99f887ffbe9ad0e3a4834df5b583c7e2c05125f60ad79d778daea",
+  "examples": [
+    {
+      "title": "Supported source excerpt",
+      "method": "hybrid",
+      "threshold": 0.35,
+      "observed_result": {
+        "id": "test-api-rotation-1",
+        "group": "api-rotation",
+        "category": "direct",
+        "question": "How do I rotate an API key without interrupting integrations?",
+        "plan": "growth",
+        "answerable": true,
+        "relevant_ids": [
+          "api-rotation"
+        ],
+        "answer_phrase": "create a second key",
+        "ranked_ids": [
+          "api-rotation",
+          "key-names",
+          "idempotency",
+          "ratelimit",
+          "sso"
+        ],
+        "answer": "To rotate an API key, create a second key, update every integration to use it, verify successful requests, and then revoke the old key. Two keys may remain active during a rotation. Revocation is immediate and cannot be undone. NorthstarFlow never displays the full secret again after the key creation screen closes.",
+        "citation": {
+          "id": "api-rotation",
+          "title": "Rotate an API key without integration downtime"
+        },
+        "support_score": 0.63033036,
+        "abstained": false,
+        "correct_answer_proxy": true,
+        "quote_integrity": true,
+        "eligibility_violation": false,
+        "failure": "",
+        "recall_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "mrr_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      }
+    },
+    {
+      "title": "Unknown fact: abstention",
+      "method": "hybrid",
+      "threshold": 0.35,
+      "observed_result": {
+        "id": "test-future-prices-1",
+        "group": "future-prices",
+        "category": "missing_fact",
+        "question": "What will an Enterprise subscription cost in 2031?",
+        "plan": "growth",
+        "answerable": false,
+        "relevant_ids": [],
+        "answer_phrase": "",
+        "ranked_ids": [
+          "cancel",
+          "user-removal",
+          "refunds",
+          "roles",
+          "support-hours"
+        ],
+        "answer": "I do not have sufficient evidence in the eligible knowledge base to answer this question.",
+        "citation": null,
+        "support_score": 0.25909014,
+        "abstained": true,
+        "correct_answer_proxy": false,
+        "quote_integrity": true,
+        "eligibility_violation": false,
+        "failure": ""
+      }
+    },
+    {
+      "title": "Wrong source despite a relevant top-five hit",
+      "method": "hybrid",
+      "threshold": 0.35,
+      "observed_result": {
+        "id": "test-roles-2",
+        "group": "roles",
+        "category": "paraphrase",
+        "question": "Which workspace role is allowed to modify payment settings?",
+        "plan": "growth",
+        "answerable": true,
+        "relevant_ids": [
+          "roles"
+        ],
+        "answer_phrase": "Only Owners",
+        "ranked_ids": [
+          "failed-payment",
+          "roles",
+          "cancel",
+          "invoices",
+          "receipt"
+        ],
+        "answer": "When a renewal card payment fails, NorthstarFlow emails the billing owner and provides a seven-day grace period. During the grace period, search remains available but new ingestion is paused after the first day. Update the card in Settings > Billing. Successful payment resumes ingestion without requiring a new workspace.",
+        "citation": {
+          "id": "failed-payment",
+          "title": "Failed card payments and workspace grace period"
+        },
+        "support_score": 0.44690101,
+        "abstained": false,
+        "correct_answer_proxy": false,
+        "quote_integrity": true,
+        "eligibility_violation": false,
+        "failure": "wrong_source_or_span",
+        "recall_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "mrr_at_5": 0.5,
+        "ndcg_at_5": 0.6309297535714575
+      }
+    },
+    {
+      "title": "Useful source rejected by the gate",
+      "method": "hybrid",
+      "threshold": 0.35,
+      "observed_result": {
+        "id": "test-api-rotation-3",
+        "group": "api-rotation",
+        "category": "paraphrase",
+        "question": "What is the safe sequence for replacing a key used by my integration?",
+        "plan": "growth",
+        "answerable": true,
+        "relevant_ids": [
+          "api-rotation"
+        ],
+        "answer_phrase": "create a second key",
+        "ranked_ids": [
+          "api-rotation",
+          "idempotency",
+          "key-names",
+          "ratelimit",
+          "sync-errors"
+        ],
+        "answer": "I do not have sufficient evidence in the eligible knowledge base to answer this question.",
+        "citation": null,
+        "support_score": 0.3294791,
+        "abstained": true,
+        "correct_answer_proxy": false,
+        "quote_integrity": true,
+        "eligibility_violation": false,
+        "failure": "abstained_answerable",
+        "recall_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "mrr_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      }
+    },
+    {
+      "title": "Reranking regression",
+      "method": "reranked",
+      "threshold": 0.35,
+      "observed_result": {
+        "id": "test-job-status-3",
+        "group": "job-status",
+        "category": "paraphrase",
+        "question": "Does an accepted upload response mean my documents are already searchable?",
+        "plan": "growth",
+        "answerable": true,
+        "relevant_ids": [
+          "job-status"
+        ],
+        "answer_phrase": "GET /v1/jobs/{job_id}",
+        "ranked_ids": [
+          "upload",
+          "job-status",
+          "invoices",
+          "export",
+          "duplicate-files"
+        ],
+        "answer": "I do not have sufficient evidence in the eligible knowledge base to answer this question.",
+        "citation": null,
+        "support_score": 0.24089267,
+        "abstained": true,
+        "correct_answer_proxy": false,
+        "quote_integrity": true,
+        "eligibility_violation": false,
+        "failure": "abstained_answerable",
+        "recall_at_1": 0.0,
+        "recall_at_5": 1.0,
+        "mrr_at_5": 0.5,
+        "ndcg_at_5": 0.6309297535714575
+      }
+    },
+    {
+      "title": "Hybrid answers a baseline false abstention",
+      "method": "hybrid",
+      "threshold": 0.35,
+      "observed_result": {
+        "id": "test-api-rotation-2",
+        "group": "api-rotation",
+        "category": "paraphrase",
+        "question": "Can two credentials stay active while I replace an access key?",
+        "plan": "growth",
+        "answerable": true,
+        "relevant_ids": [
+          "api-rotation"
+        ],
+        "answer_phrase": "create a second key",
+        "ranked_ids": [
+          "api-rotation",
+          "key-names",
+          "sso-session",
+          "ratelimit",
+          "export"
+        ],
+        "answer": "To rotate an API key, create a second key, update every integration to use it, verify successful requests, and then revoke the old key. Two keys may remain active during a rotation. Revocation is immediate and cannot be undone. NorthstarFlow never displays the full secret again after the key creation screen closes.",
+        "citation": {
+          "id": "api-rotation",
+          "title": "Rotate an API key without integration downtime"
+        },
+        "support_score": 0.36819806,
+        "abstained": false,
+        "correct_answer_proxy": true,
+        "quote_integrity": true,
+        "eligibility_violation": false,
+        "failure": "",
+        "recall_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "mrr_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      }
+    }
+  ]
+}

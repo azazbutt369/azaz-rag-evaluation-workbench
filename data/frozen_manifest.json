@@ -1,0 +1,12 @@
+{
+  "description": "Frozen before the first benchmark execution; authored synthetic fixture, not blind independent testing.",
+  "date": "2026-10-30",
+  "hashes": {
+    "data/corpus.jsonl": "a9d6cfd21e3c2e907d482357b69bc9502908d8880a7d52b836133566003b7dbb",
+    "data/queries.jsonl": "81822f28753aa46f645c106c69efa7686621777cacfb87ce43ed2a6b4e5bdfd5",
+    "data/lexicon.json": "412fe7c5ba46015aa6a596b99b95e3f25dce46fd97253cc70a0234a16c7ab557",
+    "ragbench/retrieval.py": "6f1ac85ba765bdc83ac9877a008f3d551b51e447c7b441e7664be8aef5b90a06",
+    "ragbench/evaluation.py": "027db49935e94284f83fdddfd001ecb237aea188a31a367209c46654025cfe03"
+  },
+  "test_policy": "No ranking weights, vocabulary or thresholds selected using test metrics."
+}

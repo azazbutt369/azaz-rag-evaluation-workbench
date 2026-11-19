@@ -1,0 +1,211 @@
+{
+  "split": "test",
+  "methods": {
+    "bm25": {
+      "threshold": 0.4,
+      "recall_at_1": 0.7777777777777778,
+      "recall_at_5": 0.9166666666666666,
+      "mrr_at_5": 0.8310185185185185,
+      "ndcg_at_5": 0.8525704462560085,
+      "answerable_count": 36,
+      "unanswerable_count": 12,
+      "answer_coverage_answerable": 0.4166666666666667,
+      "correct_answer_rate_answerable": 0.4166666666666667,
+      "false_answer_rate_unanswerable": 0,
+      "correct_abstention_rate_unanswerable": 1,
+      "selective_answer_accuracy_proxy": 1,
+      "answered_count": 15,
+      "verbatim_quote_integrity_answered": 1,
+      "eligibility_violations": 0,
+      "latency_ms_p50": 0.2992769999536904,
+      "latency_ms_p95": 1.7075770999952027,
+      "failure_counts": {
+        "abstained_answerable": 21
+      },
+      "cluster_bootstrap_95_ci": {
+        "recall_at_1": [
+          0.6388888888888888,
+          0.9166666666666666
+        ],
+        "recall_at_5": [
+          0.8333333333333334,
+          1.0
+        ],
+        "mrr_at_5": [
+          0.7129629629629629,
+          0.9490740740740741
+        ],
+        "ndcg_at_5": [
+          0.7468075591786838,
+          0.9583333333333334
+        ]
+      },
+      "categories": {
+        "access_control": {
+          "count": 4,
+          "correct_decision_proxy": 1
+        },
+        "direct": {
+          "count": 12,
+          "correct_decision_proxy": 0.8333333333333334
+        },
+        "missing_fact": {
+          "count": 4,
+          "correct_decision_proxy": 1
+        },
+        "paraphrase": {
+          "count": 24,
+          "correct_decision_proxy": 0.20833333333333334
+        },
+        "plan_scope": {
+          "count": 2,
+          "correct_decision_proxy": 1
+        },
+        "unsupported_claim": {
+          "count": 2,
+          "correct_decision_proxy": 1
+        }
+      }
+    },
+    "hybrid": {
+      "threshold": 0.35,
+      "recall_at_1": 0.8611111111111112,
+      "recall_at_5": 0.9444444444444444,
+      "mrr_at_5": 0.9027777777777778,
+      "ndcg_at_5": 0.9136885905753992,
+      "answerable_count": 36,
+      "unanswerable_count": 12,
+      "answer_coverage_answerable": 0.8055555555555556,
+      "correct_answer_rate_answerable": 0.7222222222222222,
+      "false_answer_rate_unanswerable": 0,
+      "correct_abstention_rate_unanswerable": 1,
+      "selective_answer_accuracy_proxy": 0.896551724137931,
+      "answered_count": 29,
+      "verbatim_quote_integrity_answered": 1,
+      "eligibility_violations": 0,
+      "latency_ms_p50": 0.391726499969991,
+      "latency_ms_p95": 3.6000556500084686,
+      "failure_counts": {
+        "abstained_answerable": 7,
+        "wrong_source_or_span": 3
+      },
+      "cluster_bootstrap_95_ci": {
+        "recall_at_1": [
+          0.7777777777777778,
+          0.9444444444444444
+        ],
+        "recall_at_5": [
+          0.8611111111111112,
+          1.0
+        ],
+        "mrr_at_5": [
+          0.8333333333333334,
+          0.9722222222222222
+        ],
+        "ndcg_at_5": [
+          0.8406072085317476,
+          0.9794960974206365
+        ]
+      },
+      "categories": {
+        "access_control": {
+          "count": 4,
+          "correct_decision_proxy": 1
+        },
+        "direct": {
+          "count": 12,
+          "correct_decision_proxy": 0.9166666666666666
+        },
+        "missing_fact": {
+          "count": 4,
+          "correct_decision_proxy": 1
+        },
+        "paraphrase": {
+          "count": 24,
+          "correct_decision_proxy": 0.625
+        },
+        "plan_scope": {
+          "count": 2,
+          "correct_decision_proxy": 1
+        },
+        "unsupported_claim": {
+          "count": 2,
+          "correct_decision_proxy": 1
+        }
+      }
+    },
+    "reranked": {
+      "threshold": 0.35,
+      "recall_at_1": 0.8333333333333334,
+      "recall_at_5": 0.9444444444444444,
+      "mrr_at_5": 0.8888888888888888,
+      "ndcg_at_5": 0.9034366392857175,
+      "answerable_count": 36,
+      "unanswerable_count": 12,
+      "answer_coverage_answerable": 0.8055555555555556,
+      "correct_answer_rate_answerable": 0.7222222222222222,
+      "false_answer_rate_unanswerable": 0,
+      "correct_abstention_rate_unanswerable": 1,
+      "selective_answer_accuracy_proxy": 0.896551724137931,
+      "answered_count": 29,
+      "verbatim_quote_integrity_answered": 1,
+      "eligibility_violations": 0,
+      "latency_ms_p50": 0.4140650000294954,
+      "latency_ms_p95": 3.1615440999530606,
+      "failure_counts": {
+        "abstained_answerable": 7,
+        "wrong_source_or_span": 3
+      },
+      "cluster_bootstrap_95_ci": {
+        "recall_at_1": [
+          0.75,
+          0.9166666666666666
+        ],
+        "recall_at_5": [
+          0.8611111111111112,
+          1.0
+        ],
+        "mrr_at_5": [
+          0.8194444444444444,
+          0.9583333333333334
+        ],
+        "ndcg_at_5": [
+          0.8376291324404802,
+          0.9692441461309548
+        ]
+      },
+      "categories": {
+        "access_control": {
+          "count": 4,
+          "correct_decision_proxy": 1
+        },
+        "direct": {
+          "count": 12,
+          "correct_decision_proxy": 0.9166666666666666
+        },
+        "missing_fact": {
+          "count": 4,
+          "correct_decision_proxy": 1
+        },
+        "paraphrase": {
+          "count": 24,
+          "correct_decision_proxy": 0.625
+        },
+        "plan_scope": {
+          "count": 2,
+          "correct_decision_proxy": 1
+        },
+        "unsupported_claim": {
+          "count": 2,
+          "correct_decision_proxy": 1
+        }
+      }
+    }
+  },
+  "engineering_checks": {
+    "valid_schema_and_disjoint_intent_groups": true,
+    "eligibility_controls_27_of_27": true,
+    "no_restricted_or_archived_ranked_hits": true,
+    "answered_text_is_verbatim_source": true
+  }
+}

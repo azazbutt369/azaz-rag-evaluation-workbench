@@ -1,0 +1,19 @@
+{
+  "scope": "JavaScript execution with a DOM stub, not browser layout or visual rendering",
+  "checks": [
+    {
+      "mode": "portable",
+      "question_count": 48,
+      "hybrid_failures": 10,
+      "negatives": 12,
+      "passed": true
+    },
+    {
+      "mode": "local API",
+      "question_count": 48,
+      "hybrid_failures": 10,
+      "negatives": 12,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "project_version": "1.1.0",
+  "created_at_utc": "2026-11-02T21:32:10.701765+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "split": "test",
+  "fingerprints": {
+    "corpus": "a9d6cfd21e3c2e907d482357b69bc9502908d8880a7d52b836133566003b7dbb",
+    "queries": "81822f28753aa46f645c106c69efa7686621777cacfb87ce43ed2a6b4e5bdfd5",
+    "lexicon": "412fe7c5ba46015aa6a596b99b95e3f25dce46fd97253cc70a0234a16c7ab557"
+  },
+  "answer_mode": "verbatim_source_excerpt"
+}

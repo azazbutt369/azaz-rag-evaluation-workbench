@@ -1,0 +1,15 @@
+{
+  "rechecked_date": "2026-11-03",
+  "source_sheet": "Read-only Untitled!A1:Z25, 20 prospects; private snapshot held separately",
+  "tests_passed": 34,
+  "reference_benchmark_sha256": "442ce82590a99f887ffbe9ad0e3a4834df5b583c7e2c05125f60ad79d778daea",
+  "independent_rerun_sha256": "b79253468c958bce57f3963910d7ddfc6479a37e97f46775b85c7e45a15336c1",
+  "exact_quality_and_per_case_comparison_errors": [],
+  "all_five_original_frozen_hashes_match": true,
+  "deliberate_faults_detected": 4,
+  "dashboard_execution_checks": "dashboard_execution_checks.json",
+  "browser_visual_rendering": "Unverified; no installed Chromium runtime",
+  "client_brief_pdf": "Four pages rendered and visually inspected",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39"
+}

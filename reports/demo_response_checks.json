@@ -1,0 +1,392 @@
+{
+  "split": "test",
+  "predictions": 48,
+  "results": [
+    {
+      "id": "test-api-rotation-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-api-rotation-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-api-rotation-3",
+      "answerable": true,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-idempotency-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-idempotency-2",
+      "answerable": true,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-idempotency-3",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-sso-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-sso-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-sso-3",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-roles-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-roles-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-roles-3",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-retention-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-retention-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-retention-3",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-regions-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-regions-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-regions-3",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-support-hours-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-support-hours-2",
+      "answerable": true,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-support-hours-3",
+      "answerable": true,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-failed-payment-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-failed-payment-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-failed-payment-3",
+      "answerable": true,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-citation-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-citation-2",
+      "answerable": true,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-citation-3",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-sync-errors-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-sync-errors-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-sync-errors-3",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-duplicate-files-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-duplicate-files-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-duplicate-files-3",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-job-status-1",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-job-status-2",
+      "answerable": true,
+      "answered": true,
+      "citation_integrity": true,
+      "expected_span_and_relevant_citation_proxy": true,
+      "needs_human_semantic_review": true
+    },
+    {
+      "id": "test-job-status-3",
+      "answerable": true,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-future-prices-1",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-future-prices-2",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-root-credential-1",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-root-credential-2",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-clinical-guarantee-1",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-clinical-guarantee-2",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-private-revenue-1",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-private-revenue-2",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-starter-legal-1",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-starter-legal-2",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-backup-account-1",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    },
+    {
+      "id": "test-backup-account-2",
+      "answerable": false,
+      "answered": false,
+      "citation_integrity": null,
+      "expected_span_and_relevant_citation_proxy": false,
+      "needs_human_semantic_review": false
+    }
+  ],
+  "warning": "This checks source IDs, eligibility and expected spans only. It does not establish semantic faithfulness.",
+  "origin": "Extractive hybrid demo outputs; not externally generated LLM responses"
+}

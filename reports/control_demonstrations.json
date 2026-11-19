@@ -1,0 +1,45 @@
+{
+  "clean_fixture": {
+    "documents": 48,
+    "queries": 96,
+    "intent_groups": 36,
+    "split_overlap": 0,
+    "duplicate_questions": 0
+  },
+  "frozen_original_inputs_and_methods": {
+    "data/corpus.jsonl": true,
+    "data/queries.jsonl": true,
+    "data/lexicon.json": true,
+    "ragbench/retrieval.py": true,
+    "ragbench/evaluation.py": true
+  },
+  "demonstrations": [
+    {
+      "control": "Cross-split intent-group contamination",
+      "deliberately_contaminated": true,
+      "detected": true,
+      "message": "Query intent group crosses development/test split"
+    },
+    {
+      "control": "Duplicate evaluation question",
+      "deliberately_contaminated": true,
+      "detected": true,
+      "message": "Duplicate question text"
+    },
+    {
+      "control": "Gold source becomes ineligible",
+      "deliberately_contaminated": true,
+      "detected": true,
+      "message": "Gold document is not eligible for this query"
+    },
+    {
+      "control": "Changed per-case ranking while aggregate summaries remain unchanged",
+      "deliberately_contaminated": true,
+      "detected": true,
+      "messages": [
+        "hybrid.test-api-rotation-1.ranked_ids"
+      ]
+    }
+  ],
+  "limits": "Injected examples prove these named controls fire, not exhaustive leakage detection, tenant security or prompt-injection protection."
+}
